@@ -3,7 +3,7 @@ package ru.skypro;
 public class Main {
 
     public static void main(String[] args) {
-	// Задача 1
+	// Задача №1
         var a = 555;
         byte b = 84;
         short c = 758;
@@ -14,7 +14,7 @@ public class Main {
         char h = 256;
         boolean i = a > 300;
 
-        // Задача 2
+        // Задача №2
         float boxer1Weight = 78.2f;
         float boxer2Weight = 82.7f;
         float totalWeight = boxer1Weight + boxer2Weight;
@@ -22,7 +22,7 @@ public class Main {
         System.out.println("Общий вес двух бойцов: " + totalWeight + " кг");
         System.out.println("Разница между весами бойцов: " + weightDifference + " кг");
 
-        // Задача 3
+        // Задача №3
         int bananaWeight = 80;
         int bananas = 5;
         int milkWeight = 105;
@@ -36,7 +36,7 @@ public class Main {
         double breakfastWeightKg = totalBreakfastWeight / (double)grPerKg;
         System.out.println("Вес спорт-завтрака: " + breakfastWeightKg + " кг");
 
-        // Задача 4
+        // Задача №4
         int gramsPerKilogram = 1000;
         int needToLose = 7 * gramsPerKilogram;
         int weightLossOpt1 = 250;
@@ -49,7 +49,7 @@ public class Main {
         System.out.println("На сброс 7 кг при потере 500 грамм в день уйдёт " + durationOpt2 + " дней");
         System.out.println("На сброс 7 кг потребуется в среднем " + averageDuration + " дней");
 
-        // Задача 5
+        // Задача №5
         float salaryIncrease = 10f / 100;
         int currentSalaryMasha = 67_760;
         int currentSalaryDenis = 83_690;
