@@ -4,15 +4,15 @@ public class Main {
 
     public static void main(String[] args) {
 	// Задача №1
-        var a = 555;
-        byte b = 84;
-        short c = 758;
-        int d = 7_864;
-        long e = 483L;
+        var aA = 555;
+        byte bB = 84;
+        short cC = 758;
+        int dD = 7_864;
+        long eE = 483L;
         float f = 5.6f;
         double g = 76.567;
         char h = 256;
-        boolean i = a > 300;
+        boolean i = aA > 300;
 
         // Задача №2
         float boxer1Weight = 78.2f;
@@ -64,6 +64,27 @@ public class Main {
         System.out.println("Денис теперь получает " + newSalaryDenis + " рублей. Годовой доход вырос на " + annualSalaryIncreaseDenis + " рублей.");
         System.out.println("Кристина теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос на " + annualSalaryIncreaseKristina + " рублей.");
 
+        // Задача №6
+        int a = 12;
+        int b = 27;
+        int c = 44;
+        int d = 15;
+        int e = 9;
+        int result = a * (b + (c - d * e));
+        System.out.println(result);
+        int invertResult = -1 * result;
+        System.out.println(invertResult);
+
+        // Задача №7
+        int x = 5;
+        int y = 7;
+        x = x + y;
+        y = x - y;
+        x = x - y;
+
+        // Задача №8
+        int z = 221;
+        int zZ = (z / 10) % 10;
 
     }
 }
